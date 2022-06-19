@@ -1,0 +1,13 @@
+.timer {
+    background: rgb(43, 2, 79);
+    border: 10px solid rgb(43, 2, 79);
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 80px;
+    font-weight: 600;
+    margin: 20px auto;
+    width: 20vw;
+    line-height: 35vw;
+    height: 40vw;
+    border-radius: 10px;
+    box-shadow: rgba(0,0,0,0.4) 0 0 10px;
+}

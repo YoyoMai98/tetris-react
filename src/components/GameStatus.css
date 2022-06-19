@@ -1,0 +1,27 @@
+.gameStatus {
+    position: absolute;
+    width: 22vw;
+    list-style-type: none;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.gameStatus_right {
+    right: 14vw;
+    top: 10vh;
+    text-align: left;
+}
+
+.gameStatus .value {
+    font-size: 30px;
+    margin-bottom: 13px;
+}
+
+.tips {
+    margin-top: 20px;
+    font-size: 15px;
+    border-radius: 10px;
+    color: rgba(255, 255, 255, 0.5);
+}
+.tips p {
+    margin-bottom: 4px;
+}

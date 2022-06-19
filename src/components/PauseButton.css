@@ -1,0 +1,72 @@
+.PauseButton {
+    position: absolute;
+    width: 22vw;
+    right: 14vw;
+    top: 3vh;
+    text-align: left;
+}
+
+.pause_btn {
+  font-size: 18px;
+  padding: 5px 10px;
+  border: 3px solid rgba(255, 255, 255, 0.5);
+  border-radius: 10px;
+  outline: none;
+  background-color: transparent;
+  color: rgba(255, 255, 255, 0.5);
+  cursor: pointer;
+}
+
+.pause_btn:hover {
+  background-color: rgb(98, 37, 151);
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.pause_board_wrapper {
+  position: absolute;
+  top: 0;
+  left: 40%;
+  background-color: rgb(43, 2, 79);
+  border: 1px solid rgb(43, 2, 79);
+  width: 19vw;
+  height: 40vw;
+  border-radius: 10px;
+  z-index: 10;
+}
+
+.pause_board {
+  margin: 5vw auto;
+  width: 15vw;
+  height: 30vw;
+  border: 3px solid rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 10px;
+}
+
+.pause_board p {
+  margin: 20px;
+  margin-bottom: 25px;
+  font-size: 23px;
+  color: rgb(43, 2, 79, 0.8);
+  font-weight: 600;
+}
+
+.pause_board button {
+  display: block;
+  margin: 20px auto;
+  border: 3px solid rgba(255, 255, 255, 0.5);
+  color: rgb(43, 2, 79, 0.8);
+  border-radius: 5px;
+  font-size: 25px;
+  padding: 10px;
+  cursor: pointer;
+  width: 120px;
+  text-align: center;
+  line-height: 20px;
+  font-weight: 550;
+}
+
+.pause_board button:hover{
+  background-color: rgba(226, 220, 220, 0.8);
+  color: rgba(22, 1, 41, 0.8);
+}

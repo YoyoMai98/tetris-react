@@ -1,0 +1,9 @@
+.Teris-wrapper{
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+
+.Teris{
+    position: relative;
+}
