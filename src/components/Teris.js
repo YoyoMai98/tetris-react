@@ -15,8 +15,8 @@ import { useDropTime } from "../hooks/useDropTime"
 import {Action, actionForKey, actionIsDrop} from "../business/Action"
 import { playerController } from "../business/PlayerController"
 
-export const Teris = ({rows, columns, setGameOver, resetTimeLeft}) => {
-  const [gameStatus, addLinesCleared] = useGameStatus()
+export const Teris = ({rows, columns, setGameOver, resetTimeLeft, initialLevel}) => {
+  const [gameStatus, addLinesCleared] = useGameStatus({initialLevel})
   const [player, setPlayer, resetPlayer] = usePlayer()
   const [board] = useBoard({
     player, resetPlayer, rows, columns, addLinesCleared
@@ -92,9 +92,9 @@ export const Teris = ({rows, columns, setGameOver, resetTimeLeft}) => {
           <GameStatus gameStatus={gameStatus} />
           <Previews tetrominoes={player.tetrominoes} />
           <PauseButton onPause={onPause}
-            clicked={clicked}
-            onQuit={onQuit} 
-            onResume={onResume}
+              clicked={clicked}
+              onQuit={onQuit} 
+              onResume={onResume}
           />
       </div>
     </div>

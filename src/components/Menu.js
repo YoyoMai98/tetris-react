@@ -1,10 +1,17 @@
 import "./Menu.css"
 
-const Menu = ({onClick}) => {
+const Menu = ({onClick, onLevel, initialLevel}) => {
   return (
-    <div className='Menu' onClick={onClick}>
-        <button className="btn">Play Teris</button>
-    </div>
+    <>
+      <div className='Menu'>
+          <button className="btn" onClick={onClick}>Play Teris</button>
+      </div>
+      <div className="Level">
+        <button className="btn level-btn" onClick={onLevel}>
+          Level: {initialLevel}
+        </button>
+      </div>
+    </>
   )
 }
 

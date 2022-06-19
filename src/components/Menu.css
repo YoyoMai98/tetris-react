@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 50vh;
+    margin-top: 30vh;
     z-index: 100;
 }
 
@@ -15,4 +15,15 @@
     font-size: 30px;
     box-shadow: 0 0 30px 5px rgba(0,0,0,0.2);
     cursor: pointer;
+}
+
+.level-btn {
+    width: 200px;
+    height: 80px;
+    font-size: 25px;
+    margin-top: 5vh;
+}
+
+.btn:hover {
+    background-color: rgba(255, 255, 255, 0.8);
 }

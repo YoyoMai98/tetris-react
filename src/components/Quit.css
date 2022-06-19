@@ -26,6 +26,10 @@
     padding: 1vw;
 }
 
+.Quit a {
+    text-decoration: none;
+}
+
 .ok-btn, .cancel-btn {
     display: block;
     margin: 1.5vh auto;

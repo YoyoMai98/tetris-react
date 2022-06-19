@@ -11,11 +11,6 @@ const GameStatus = ({gameStatus}) => {
         <li className="value">{linesToComplete}</li>
         <li>Points</li>
         <li className="value">{points}</li>
-        <li className="tips">
-          <p>Tips:</p>
-          <p>Key P: Pause the game</p>
-          <p>Key Q: Quit the game</p>
-        </li>
     </ul>
   )
 }
