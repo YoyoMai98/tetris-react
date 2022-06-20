@@ -28,7 +28,7 @@
   left: 40%;
   background-color: rgb(43, 2, 79);
   border: 1px solid rgb(43, 2, 79);
-  width: 19vw;
+  width: 20vw;
   height: 40vw;
   border-radius: 10px;
   z-index: 10;
@@ -38,8 +38,8 @@
   margin: 5vw auto;
   width: 15vw;
   height: 30vw;
-  border: 3px solid rgba(255, 255, 255, 0.5);
-  background-color: rgba(255, 255, 255, 0.7);
+  border: 3px solid rgb(215, 213, 213, 0.8);
+  background-color: rgb(222, 208, 223, 0.9);
   border-radius: 10px;
 }
 
@@ -54,9 +54,10 @@
 .pause_board button {
   display: block;
   margin: 20px auto;
-  border: 3px solid rgba(255, 255, 255, 0.5);
+  border: 3px solid rgb(43, 2, 79, 0.6);
+  background-color: rgb(222, 208, 223, 0.8);;
   color: rgb(43, 2, 79, 0.8);
-  border-radius: 5px;
+  border-radius: 7px;
   font-size: 25px;
   padding: 10px;
   cursor: pointer;
@@ -67,6 +68,6 @@
 }
 
 .pause_board button:hover{
-  background-color: rgba(226, 220, 220, 0.8);
+  background-color: rgba(196, 181, 203, 0.8);
   color: rgba(22, 1, 41, 0.8);
 }

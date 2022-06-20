@@ -31,7 +31,7 @@ const Game = ({rows, columns}) => {
   }
 
   return (
-    <div>
+    <div className='game'>
         {gameOver? (
           <Menu onClick={start} onLevel={onLevel} initialLevel={initialLevel} />
         ) : (

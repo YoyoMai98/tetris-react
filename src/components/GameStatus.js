@@ -1,4 +1,5 @@
 import "./GameStatus.css"
+import React from "react"
 
 const GameStatus = ({gameStatus}) => {
   const {level, linesCompleted, linesPerLevel, points} = gameStatus
@@ -15,4 +16,4 @@ const GameStatus = ({gameStatus}) => {
   )
 }
 
-export default GameStatus
+export default React.memo(GameStatus)

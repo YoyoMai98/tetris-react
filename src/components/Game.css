@@ -1,3 +1,7 @@
+.game {
+    position: relative;
+}
+
 .timer {
     background: rgb(43, 2, 79);
     border: 10px solid rgb(43, 2, 79);

@@ -6,7 +6,7 @@ export const useGameOver = ({resetLevel}) => {
     const resetGameOver = useCallback(() => {
         setGameOver(false)
         resetLevel()
-    }, [])
+    }, [resetLevel])
 
     return [gameOver, setGameOver, resetGameOver]
 }

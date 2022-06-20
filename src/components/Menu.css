@@ -1,27 +1,33 @@
 .Menu {
-    display: flex;
+    margin: 0 auto;
+    /* display: flex;
     justify-content: center;
-    align-items: center;
-    margin-top: 30vh;
-    z-index: 100;
+    align-items: center; */
+    /* margin-top: 30vh; */
 }
 
 .btn {
     padding: 2px;
-    width: 250px;
-    height: 100px;
+    width: 17vw;
+    height: 7vw;
     border: none;
-    border-radius: 20px;
-    font-size: 30px;
+    border-radius: 15px;
+    font-weight: 550;
+    font-size: 25px;
     box-shadow: 0 0 30px 5px rgba(0,0,0,0.2);
     cursor: pointer;
 }
 
+.menu-btn {
+    margin-top: 11vh;
+    width: 14vw;
+}
+
 .level-btn {
-    width: 200px;
-    height: 80px;
-    font-size: 25px;
-    margin-top: 5vh;
+    width: 11vw;
+    height: 5vw;
+    font-size: 20px;
+    margin-top: 3vh;
 }
 
 .btn:hover {
